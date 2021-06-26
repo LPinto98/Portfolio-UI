@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+#mainBg {
+    /* background-image: url('../assets/Abstract-Envelope.svg'); */
+    /* background-image: url('../assets/Shiny-Overlay.svg'); */
+    /* background-image: url('../assets/Subtle-Prism-New.svg'); */
+    background-image: url('../assets/Shiny-Overlay.svg');
+    background-repeat: no-repeat;
+}
+
+.avatar{
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: aliceblue;
+}
+
+.nav-link {
+    font-size: 200;
+}
+
+.nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .tw{
+      display: inline-block;
+  }
+  .typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #333; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation-delay: 10s;
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(70, 69, 69) }
+  }

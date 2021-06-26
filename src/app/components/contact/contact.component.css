@@ -1,0 +1,18 @@
+.jumbotron {
+    background-image: url('../../../assets/Contact-bg.svg');
+    margin: 0;
+}
+
+.contact-body {
+    background-image: url('../../../assets/business-hand-with-mobile-phone.jpg');
+    background-size:cover; 
+    background-repeat:no-repeat;
+}
+
+.contact-form{
+    background-color: rgba(39, 42, 51, 0.7);
+}
+
+textarea {
+    resize: none;
+}

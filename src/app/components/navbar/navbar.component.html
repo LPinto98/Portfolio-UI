@@ -1,0 +1,22 @@
+<nav class="navbar navbar-dark transparent fixed-top navbar-expand-lg navbar-inverse" (scroll)="onWindowScroll();" id="navbar">
+    <a class="navbar-brand text-white" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav text-white">
+        <li class="nav-item active">
+          <a class="nav-link text-white hvr-underline-from-left" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link text-white btn bg-transparent hvr-underline-from-left" (click)="scroll('work')"> Work</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link text-white btn bg-transparent hvr-underline-from-left" (click)="scroll('services')">Services</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link text-white btn bg-transparent hvr-underline-from-left" (click)="scroll('contact')">Contact</button>
+        </li>
+      </ul>
+    </div>
+  </nav>

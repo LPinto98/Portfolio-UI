@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(182, 184, 184);
+}
+.footer-body {
+    background-color: rgb(30, 30, 32);
+}
+hr{
+    color: rgb(128, 141, 141);
+}
